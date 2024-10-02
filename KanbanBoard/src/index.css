@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Container that holds the boxes */
+.box-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows the boxes to wrap to the next line */
+  gap: 20px; /* Adds space between boxes */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+/* Individual boxes */
+.box {
+  flex: 1 1 200px; /* Allows boxes to shrink or grow, with a base size of 200px */
+  min-width: 200px; /* Minimum width for the boxes */
+  height: 150px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
