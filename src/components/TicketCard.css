@@ -1,0 +1,58 @@
+/* src/components/TicketCard.css */
+.ticket-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-card h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .ticket-card p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+  /* TicketCard.css */
+.ticket-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.ticket-status {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.ticket-priority {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.ticket-priority.urgent:hover {
+  background-color: #ff3b30;
+}
+
+.ticket-priority.high:hover {
+  background-color: #ffa500;
+}
+
+.ticket-priority.medium:hover {
+  background-color: #ffc107;
+}
+
+.ticket-priority.low:hover {
+  background-color: #28a745;
+}
